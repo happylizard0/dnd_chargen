@@ -1,10 +1,22 @@
-# D&D Character Generator ⚔️📜
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-active-success)
+
+
+# D&D Character Generator 
 
 A lightweight, extensible Dungeons & Dragons (5e-inspired) character generator with a friendly CLI and a modular engine for building, leveling, and inspecting characters. This repository focuses on deterministic rules logic, clear data structures, and flavorful backstory generation.
 
 ---
 
-## 🚀 Quick Start
+## Known Limitations
+
+- Backstory content is still stored in Python dictionaries
+- Spell data is incomplete for some classes/levels
+- No GUI or web interface yet
+
+
+## Quick Start
 
 Requirements
 - Python 3.10+ (3.11+ recommended)
@@ -28,7 +40,7 @@ Interact with the menu to create new characters, load/level, or view characters.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - CLI-driven character creation and leveling (`cli_utils.py`) 
 - Clear, typed `Character` dataclass and model (`engine/models.py`) 
@@ -40,7 +52,7 @@ Interact with the menu to create new characters, load/level, or view characters.
 
 ---
 
-## ❗ Notable Fixes & Current State
+## Notable Fixes & Current State
 
 - Fixed silent bug where adjacent string literals in `biographer.py` were inadvertently concatenated (missing commas). ✅
 - The main menu now correctly routes the **View Character** option to `cli_view_character`. ✅
@@ -49,7 +61,7 @@ If you find other content issues or formatting problems in the large `biographer
 
 ---
 
-## 🧰 Developer Guide
+## Developer Guide
 
 Project layout (top-level):
 ```
@@ -78,7 +90,7 @@ Make randomness deterministic for tests
 
 ---
 
-## 🧪 Tests & CI
+## Tests & CI
 
 Run tests locally
 ```powershell
@@ -91,7 +103,7 @@ Suggested CI (GitHub Actions)
 
 ---
 
-## 💡 Roadmap & Improvements
+## Roadmap & Improvements
 
 Short-term improvements
 - Add unit tests for `engine/biographer.py` to ensure lists are well-formed and content entries appear as expected.
@@ -136,4 +148,4 @@ This project is open source — defaulting to the MIT License. Add a `LICENSE` f
 
 ---
 
-Made with ⚔️ and ☕ — happy adventuring!
+SUPPORT YOUR FLGS!
