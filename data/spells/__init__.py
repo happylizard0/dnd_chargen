@@ -18,6 +18,9 @@ SPELLS_BY_LEVEL = {
     "Wizard": {
         1: ["Magic Missile", "Mage Armor", "Shield", "Detect Magic", "Sleep", "Identify", "Burning Hands"],
     },
+    "Sorcerer": {
+        1: ["Magic Missile", "Mage Armor", "Shield", "Detect Magic", "Sleep", "Identify", "Burning Hands"],
+    },
     "Cleric": {
         1: ["Cure Wounds", "Bless", "Shield of Faith", "Guiding Bolt", "Detect Magic"],
     },
@@ -29,5 +32,11 @@ SPELLS_BY_LEVEL = {
     },
     "Ranger": {
         1: ["Hunter's Mark", "Cure Wounds", "Detect Magic"],
+    },
+    "Druid": {
+        1: ["Cure Wounds", "Detect Magic", "Faerie Fire"],
+    },
+    "Warlock": {
+        1: ["Charm Person", "Detect Magic", "Hex"],
     },
 }

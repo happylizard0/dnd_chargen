@@ -60,6 +60,78 @@ LOW_LEVEL = {
         "components": "V, S, M"
     },
 
+    # Additional Level 1 spells referenced elsewhere
+    "Mage Armor": {
+        "level": 1,
+        "school": "Abjuration",
+        "description": "A willing creature's base AC becomes 13 + DEX modifier for the duration (8 hours); does not function if armor is worn.",
+        "range": "Touch",
+        "components": "V, S, M"
+    },
+    "Identify": {
+        "level": 1,
+        "school": "Divination",
+        "description": "Determine magical properties of an object or the spells affecting a creature with a minute of study and a small cost in material components.",
+        "range": "Touch",
+        "components": "V, S, M"
+    },
+    "Shield of Faith": {
+        "level": 1,
+        "school": "Abjuration",
+        "description": "A creature of your choice gains +2 bonus to AC for the duration (concentration).",
+        "range": "60 feet",
+        "components": "V, S, M"
+    },
+    "Healing Word": {
+        "level": 1,
+        "school": "Evocation",
+        "description": "A creature of your choice regains 1d4 + spellcasting modifier hit points; cast as a bonus action (scales with higher slots).",
+        "range": "60 feet",
+        "components": "V"
+    },
+    "Dissonant Whispers": {
+        "level": 1,
+        "school": "Enchantment",
+        "description": "Whisper a discordant melody that deals psychic damage (DEX save for half) and may force the target to run away from the caster.",
+        "range": "60 feet",
+        "components": "V"
+    },
+    "Charm Person": {
+        "level": 1,
+        "school": "Enchantment",
+        "description": "Attempt to charm a humanoid; it regards you as a friendly acquaintance on a failed WIS save for the duration.",
+        "range": "30 feet",
+        "components": "V, S"
+    },
+    "Faerie Fire": {
+        "level": 1,
+        "school": "Evocation",
+        "description": "Outline creatures in light, granting advantage on attacks against them and negating invisibility for the duration (concentration).",
+        "range": "60 feet",
+        "components": "V"
+    },
+    "Divine Favor": {
+        "level": 1,
+        "school": "Evocation",
+        "description": "Your weapon strikes are imbued with divine power, dealing an extra 1d4 radiant damage on a hit for the duration (concentration).",
+        "range": "Self",
+        "components": "V, S"
+    },
+    "Hunter's Mark": {
+        "level": 1,
+        "school": "Divination",
+        "description": "Mark a creature as your quarry, dealing bonus 1d6 damage on hits and granting advantage on Wisdom (Perception) or Survival checks to track it (concentration).",
+        "range": "90 feet",
+        "components": "V, S"
+    },
+    "Hex": {
+        "level": 1,
+        "school": "Enchantment",
+        "description": "Place a curse on a creature, dealing extra 1d6 necrotic damage on hits and imposing disadvantage on ability checks of a chosen ability (concentration).",
+        "range": "90 feet",
+        "components": "V, S, M"
+    },
+
     # Level 2
     "Darkness": {
         "level": 2,
